@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(200, 250, 150, 30)];
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(150, 250, 150, 30)];
     btn.backgroundColor = [UIColor blueColor];
     [btn setTitle:@"打印输入内容" forState:UIControlStateNormal];
     [self.view addSubview:btn];
